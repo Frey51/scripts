@@ -1,0 +1,27 @@
+# Decrease Volume 
+"amixer set Master 1%-"
+XF86AudioLowerVolume
+
+# Raise Volume
+"amixer set Master 1%+"
+XF86AudioRaiseVolume
+
+#Mute Volume 
+"amixer set Master toggle"
+XF86AudioMute 
+
+# Screen Brightness Increase
+"light -A 1"
+XF86MonBrightnessUp
+
+# Screen Brightness Decrease
+"light -U 1"
+XF86MonBrightnessDown
+
+# Keyboard backlight inc
+"macbook-lighter-kbd --inc 50"
+XF86kbdBrightnessUp
+
+# Keyboard backlight dec
+"macbook-lighter-kbd --inc 50"
+XF86kbdBrightnessDown
